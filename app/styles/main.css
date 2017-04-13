@@ -1,0 +1,10 @@
+/**
+ * Overrides
+**/
+h2 {
+  color: #ff0000;
+}
+.linknimage .img-responsive {
+  display: inline-block;
+  float: right;
+}
