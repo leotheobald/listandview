@@ -1,5 +1,5 @@
 {
-  "name": "d8client",
+  "name": "listandview",
   "version": "1.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -13,7 +13,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "d8clientApp",
+  "moduleName": "listandview",
   "overrides": {
     "bootstrap": {
       "main": [

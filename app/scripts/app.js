@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name d8clientApp
+ * @name listandviewApp
  * @description
- * # d8clientApp
+ * # listandviewApp
  *
  * Main module of the application.
  */
 angular
-  .module('d8clientApp', [
+  .module('listandviewApp', [
     'ngResource',
     'ngRoute',
     'ngSanitize',
@@ -36,4 +36,5 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+
   }]);

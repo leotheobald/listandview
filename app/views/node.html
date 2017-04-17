@@ -7,10 +7,23 @@
     <div class="row">
       <p>{{body}}</p>
       <img ng-src={{url}} src="//:0" width={{width}} height={{height}} alt={{alt}} class="img-responsive">
+
+      <div class="video0-wrapper">
+
+        <!-- first try HTML5 playback: if serving as XML, expand `controls` to `controls="controls"` and autoplay likewise -->
+        <!-- warning: playback does not work on iOS3 if you include the poster attribute! fixed in iOS4.0 -->
+        <video width="640" height="360" src="{{vidUrl}}" controls>
+          <!-- MP4 must be first for iPad! -->
+          <source src="{{vidUrl}}" type="video/webm" /><!-- Safari / iOS video    -->
+        </video>
+
+      </div>
+
     </div>
   </section>
   <aside class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
     <h3>{{type}}</h3>
+
   </aside>
   <footer class="">
 

@@ -131,7 +131,7 @@ module.exports = function (grunt) {
         }
       }
     },
-    
+
     // Make sure there are no obvious mistakes
     jshint: {
       options: {
@@ -352,7 +352,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'd8clientApp',
+          module: 'listandviewApp',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },

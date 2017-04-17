@@ -1,9 +1,15 @@
 <div ng-controller="NodeListCtrl">
-  <h3> {{ greeting }} World</h3>
+  <h3> {{ greeting }} </h3>
   <div ng-repeat="(key, value) in nodeList">
     <span> {{ key }} </span>
-    <span> node-id: {{ value.nid }} </span>
-    <a href="#/node/{{value.nid}}" class="" alt=""><span class="">{{ value.title }} </span> >></a>
-    <img ng-src={{value.field_image.url}} src="//:0" width={{value.field_image.width}} height={{value.field_image.height}} alt={{value.field_image.alt}} class="img-responsive">
+    <span> node-id: {{nodeList[key].nid[key].value}} </span>
+    <a ng-href="/#!/node/{{nodeList[key].nid[0].value}}" src class="" alt=""><span class="">{{ nodeList[key].title[0].value}} </span> >></a>
+    <img
+      ng-src={{value.field_image.url}}
+      src="//:0"
+      width={{value.field_image.width}}
+      height={{value.field_image.height}}
+      alt={{value.field_image.alt}}
+      class="img-responsive"/>
   </div>
 </div>

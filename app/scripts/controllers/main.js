@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name d8clientApp.controller:MainCtrl
+ * @name listandviewApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the d8clientApp
+ * Controller of the listandviewApp
  */
-angular.module('d8clientApp')
+angular.module('listandviewApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
