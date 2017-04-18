@@ -4,6 +4,12 @@
 h2 {
   color: #ff0000;
 }
+.linknimage {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+}
 .linknimage .img-responsive {
   display: inline-block;
   float: right;

@@ -10,7 +10,6 @@
 
 angular.module('listandviewApp')
  .controller('NodeListCtrl', ['$scope', '$http', function($scope, $http) {
-   //$scope.greeting = 'Hello!';
    //$http.get('/nodes.json').then(function(response) {
    $http.get('http://drupal8.dev/rest/views/articles').then(function(response) {
      console.log('NodeListCtrl GET response', response);

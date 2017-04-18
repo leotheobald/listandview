@@ -5,7 +5,14 @@
 **/
 h2 {color: @primary;}
 
-.linknimage .img-responsive {
+.linknimage {
+  width: 50%;
+  height: auto;
   display: inline-block;
-  float: right;
+  overflow: hidden;
+
+  .img-responsive {
+    display: inline-block;
+    float: right;
+  }
 }
